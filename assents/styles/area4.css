@@ -1,0 +1,28 @@
+.area4{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+.area4-info{
+    padding: 80px;
+    background-color: #e8e9ee;
+}
+.area4-info::before{
+    content: "";
+    display: block;
+    height: 22px;
+    width: 168px;
+    background-color: #117050;
+}
+.area4-img{
+    background-image: url(../img/bg3.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.area5{
+    background-image: url(../img/bg4.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

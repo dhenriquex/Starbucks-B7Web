@@ -1,0 +1,26 @@
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area3-info{
+    height: auto;
+    padding: 200px 80px;
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:start;
+}
+.area3-info::before{
+    content: "";
+    display: block;
+    height: 22px;
+    width: 168px;
+    background-color: #117050;
+}
+.area3-img{
+    height: auto;
+    background-image: url(../img/f5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
