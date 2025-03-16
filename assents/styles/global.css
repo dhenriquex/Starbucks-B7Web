@@ -1,0 +1,8 @@
+@import url("./header.css");
+@import url("./banner.css");
+body{
+    background-color: #f0f0f5;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}

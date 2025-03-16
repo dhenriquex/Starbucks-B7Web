@@ -1,0 +1,26 @@
+.banner{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+    h1{
+        font-size: 90px;
+        font-weight: bold;
+        font-family: "Oswald", sans-serif;
+        line-height: 90px;
+        margin: 0;
+    }
+    p{
+        margin: 60px 0;
+    }
+}
+.banner-imgs{
+    img{
+        margin-right: 30px;
+    width: 148px;
+    height: 148px;
+    border: 7px solid #117050;
+    border-radius: 50%;
+    }
+}
